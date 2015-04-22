@@ -1,0 +1,14 @@
+2015-04-16 12:30:34,464 [Worker-20] ERROR o.e.m.i.l.MavenConsoleLineTracker - Launch configuration Tomcat v8.0 Server at localhost at file:/C:/JavaEEWorkspace/.metadata/.plugins/org.eclipse.debug.core/.launches/Tomcat%20v8.0%20Server%20at%20localhost.launch does not exist.
+org.eclipse.debug.core.DebugException: Launch configuration Tomcat v8.0 Server at localhost at file:/C:/JavaEEWorkspace/.metadata/.plugins/org.eclipse.debug.core/.launches/Tomcat%20v8.0%20Server%20at%20localhost.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:926) ~[org.eclipse.debug.core_3.9.1.v20140805-1629.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1396) ~[org.eclipse.debug.core_3.9.1.v20140805-1629.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:470) ~[org.eclipse.debug.core_3.9.1.v20140805-1629.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:640) ~[org.eclipse.debug.core_3.9.1.v20140805-1629.jar:na]
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142) [org.eclipse.m2e.launching_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85) [org.eclipse.m2e.launching_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:130) [org.eclipse.debug.ui_3.10.2.v20141014-1039.jar:na]
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.disconnect(ConsoleLineNotifier.java:75) [org.eclipse.debug.ui_3.10.2.v20141014-1039.jar:na]
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$CompiledPatternMatchListener.dispose(ConsolePatternMatcher.java:198) [org.eclipse.ui.console_3.5.300.v20140424-1437.jar:na]
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.disconnect(ConsolePatternMatcher.java:260) [org.eclipse.ui.console_3.5.300.v20140424-1437.jar:na]
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:164) [org.eclipse.ui.console_3.5.300.v20140424-1437.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.1.v20141014-1248.jar:na]

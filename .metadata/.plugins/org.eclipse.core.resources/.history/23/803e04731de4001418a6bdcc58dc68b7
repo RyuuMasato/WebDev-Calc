@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="DynamicExample">
+        <wb-resource deploy-path="/" source-path="/war"/>
+        <property name="context-root" value="DynamicExample"/>
+        <property name="java-output-path" value="/DynamicExample/war/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>

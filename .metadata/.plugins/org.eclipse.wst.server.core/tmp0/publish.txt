@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Wed Apr 22 10:05:17 CEST 2015
+org.eclipse.jst.jee.server\:DynamicExample=C\:\\apache-tomcat-8.0.21\\wtpwebapps\\DynamicExample
+org.eclipse.jst.jee.server\:LoginAndRegister=C\:\\apache-tomcat-8.0.21\\wtpwebapps\\LoginAndRegister

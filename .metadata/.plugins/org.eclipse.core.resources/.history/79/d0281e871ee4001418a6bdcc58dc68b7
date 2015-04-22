@@ -1,0 +1,9 @@
+package nl.hu.sp.lesson1.dynamicexample;
+
+import javax.servlet.http.HttpServlet;
+
+public class DynamicServlet extends HttpServlet {
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+			 throws ServletException, IOException {
+			}
+}
